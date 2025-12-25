@@ -1,0 +1,11 @@
+public function up()
+{
+    Schema::create('articles', function (Blueprint $table) {
+        $table->id();
+        $table->string('title');
+        $table->string('author')->nullable();
+        $table->date('published_at')->nullable();
+        $table->text('content');
+        $table->timestamps();
+    });
+}
