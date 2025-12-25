@@ -1,0 +1,38 @@
+phase 1 :
+XAMPP
+  ↓
+Composer
+  ↓
+Laravel Backend Project
+  ↓
+BeyondChats Blog Articles
+  ↓
+phpMyAdmin
+  ↓
+MySQL Database
+  ↓
+Laravel CRUD APIs
+
+beyondchats-backend-laravel/
+│
+├── app/
+│   ├── Models/
+│   │   └── Article.php
+│   └── Http/
+│       └── Controllers/
+│           └── ArticleController.php
+│
+├── database/
+│   └── migrations/
+│       └── create_articles_table.php
+│
+├── routes/
+│   └── api.php
+│
+├── .env
+├── composer.json
+└── README.md
+
+Phase -3 :
+Frontend UI(react.js)
+  
